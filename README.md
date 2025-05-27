@@ -18,4 +18,4 @@ A web application that fetches and displays information about characters from th
 - Google Fonts
 
 ## Go live 🛜
-https://github.com/Ghassan-Omar/magical-characters
+(https://ghassan-omar.github.io/magical-characters/)
