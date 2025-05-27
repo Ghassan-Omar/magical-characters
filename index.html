@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Characters</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Magical Characters</h1>
+            <div class="filter-container">
+                <label for="house-filter">Filter by House:</label>
+                <select id="house-filter">
+                    <option value="all">All Houses</option>
+                    <option value="Gryffindor">Gryffindor</option>
+                    <option value="Slytherin">Slytherin</option>
+                    <option value="Hufflepuff">Hufflepuff</option>
+                    <option value="Ravenclaw">Ravenclaw</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div id="loading-indicator" class="loading">
+            <div class="spinner"></div>
+            <div class="card__background"></div>
+            <p>Loading magical characters...</p>
+        </div>
+        <div id="character-container" class="character-grid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Created by G.E</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
