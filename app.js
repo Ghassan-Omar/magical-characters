@@ -58,7 +58,7 @@ function renderCharacters() {
         : './images/not-found.png';
         
         card.innerHTML = `<div class="character-image">
-            <img src="${imageUrl}" alt="${character.name}" onerror="this.src='../../images/not-found.jpeg';">
+            <img src="${imageUrl}" alt="${character.name}" onerror="this.src="not-found.jpeg';">
             </div>
             <div class="character-info">
             <h3>${character.name}</h3>
