@@ -17,5 +17,5 @@ A web application that fetches and displays information about characters from th
 - Harry Potter API for character data
 - Google Fonts
 
-## Go live
+## Go live 🛜
 - (https://ghassan-omar.github.io/magical-characters/)
