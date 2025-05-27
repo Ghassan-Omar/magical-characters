@@ -55,10 +55,10 @@ function renderCharacters() {
         const dob = character.dateOfBirth ? character.dateOfBirth : 'Unknown';
         const imageUrl = character.image && character.image.trim() !== '' 
         ? character.image 
-        : 'not-found.jpeg';
+        : not-found.jpeg;
         
         card.innerHTML = `<div class="character-image">
-            <img src="${imageUrl}" alt="${character.name}" onerror="this.src='not-found.jpeg';">
+            <img src="${imageUrl}" alt="${character.name}" onerror="this.src=not-found.jpeg;">
             </div>
             <div class="character-info">
             <h3>${character.name}</h3>
