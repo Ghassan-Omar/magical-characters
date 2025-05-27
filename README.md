@@ -17,8 +17,5 @@ A web application that fetches and displays information about characters from th
 - Harry Potter API for character data
 - Google Fonts
 
-## How to Use
-
-1. Clone this repository
-2. Open index.html in your browser
-3. Use the dropdown menu to filter characters by house
+## Go live
+- (https://ghassan-omar.github.io/magical-characters/)
